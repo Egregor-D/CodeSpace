@@ -1,0 +1,12 @@
+@font-face {
+	font-family:'MyHelvetica';
+	font-style: normal;
+	font-weight: 400;
+	src: local("Baloo Bhaina"), 
+	     local("BalooBhaina-Regular"),
+	url("BalooBhaina-Regular.ttf");
+}
+
+#font-face {
+	font-family:'MyHelvetica';
+}

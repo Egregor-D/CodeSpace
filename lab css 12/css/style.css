@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+}
+
+/*.header {
+    height: 200px;
+    background-image: url("../img/header.png");
+    background-size: 50% auto cover;
+}*/
+
+.parallax {  
+    padding-top: 350px;
+    height: 500px;
+    background-color: #fff;
+    background-image: url("../img/bg.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.tiles {
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 200px;
+    height: 300px;
+    background-image: url("../img/tile.png");
+    background-repeat: repeat-y;
+    background-size: 190px 190px;
+}

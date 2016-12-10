@@ -1,0 +1,33 @@
+h1 {
+	font-family: Geneva;
+}
+h1:hover {
+	color: #fff;
+}
+
+.class {
+	color: blue;
+}
+.class:hover {
+	color: #fff;
+}
+a {
+	font-size: 40px;
+	color: green;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	border-bottom: 1px solid green;
+	border-top:  1px solid green;
+}
+
+#id {
+	margin-top: 50px;
+	font-size: 80px;
+	color: yellow;
+}
+#id > p:hover {
+	color: #fff;
+}

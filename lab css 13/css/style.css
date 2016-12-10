@@ -1,0 +1,21 @@
+.icon {
+    background-image: url("../icons.png");
+    height: 150px;
+    width: 150px;
+    border: 1px  solid red;
+}
+ .first {
+ 	background-position: 5px 150px;
+ }
+
+ .second {
+ 	background-position: 150px 450px;
+ }
+
+ .third {
+ 	background-position: 300px 450px;
+ }
+
+ .fourth {
+ 	background-position: 450px 0px;
+ }

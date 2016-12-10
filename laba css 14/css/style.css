@@ -1,0 +1,55 @@
+.container {
+    padding: 10px;
+}
+
+.container div {
+    border: 1px solid black;
+    background: lightgray;
+    margin: 5px;
+}
+
+.px {
+	min-width: 100px;
+	width: 150px;
+	max-width: 200px;
+}
+.cm {
+	min-width: 10cm;
+	width: 15cm;
+	max-width: 20cm;
+}
+.pt {
+	min-width: 100pt;
+	width: 150pt;
+	max-width: 200pt;
+}
+
+.em {
+	min-width: 10em;
+	width: 15em;
+	max-width: 20em;
+}
+
+.rem {
+	min-width: 10rem;
+	width: 15rem;
+	max-width: 20rem;
+}
+
+.perent {
+	min-width: 10%;
+	width: 15%;
+	max-width: 20%;
+}
+
+.vh {
+	min-width: 100vh;
+	width: 150vh;
+	max-width: 200vh;
+}
+
+.vw {
+	min-width: 10vw;
+	width: 15vw;
+	max-width: 20vw;
+}

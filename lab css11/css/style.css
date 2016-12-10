@@ -1,0 +1,9 @@
+.container {
+    width: 400px;    
+    margin: 10px;
+}
+
+div:first-child {
+	background-image: url("../imges/1.png");
+	height: 100%;
+}

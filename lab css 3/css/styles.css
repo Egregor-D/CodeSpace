@@ -1,0 +1,16 @@
+/*
+
+    font-weight:bold;
+    color: green;
+    background-color: red;
+    color: blue;
+    font-size: 36px;
+    font-size: 50px;
+
+*/
+p span {
+	color: green;
+}
+span span {
+	font-weight: bold;
+}

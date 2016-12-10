@@ -1,0 +1,41 @@
+.overflow {
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+#first {
+	text-align: right;
+	font-size: 5em;
+}
+
+#second {
+	text-align: justify;
+	font-size: 25px;
+}
+
+#third {
+	text-align: end;
+}
+
+#fourh {
+	text-align: left;
+	font-size: 15%;
+}
+
+a {
+	text-decoration: none;
+}
+a:last-child {
+	color: red;
+}
+
+.overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

@@ -1,0 +1,56 @@
+* {
+	margin: 20px;
+	padding: 20px;
+}
+
+p {
+    border: 1px solid black;
+    background: lightgray;
+}
+
+.dotted {
+	border: 5px dotted black;
+	border-top-right-radius: 20px;
+}
+
+.dashed {
+	border: 5px dashed black;
+	border-bottom-right-radius: 40px;
+	border-top-left-radius: 40px;  
+}
+
+.solid {
+	border: 5px solid black;
+}
+
+.double {
+	border: 5px double red;
+}
+
+.groove {
+	border: 5px groove blue;
+}
+
+.ridge {
+	border: 5px ridge gold;
+}
+
+.inset {
+	border: 5px inset green;
+}
+
+.outset {
+	border: 5px outset yellow;
+}
+
+.none {
+	border: none;
+}
+
+.hidden {
+	border: hidden;
+}
+
+.mix {
+	border: 5px mix black;
+}

@@ -1,0 +1,20 @@
+/*Make all spans with lang bold*/
+span {font-weight:bold;}
+ 
+/* Make all spans with pt in lang green */
+span {color:green;}
+
+/* Make en-us spans blue */
+span  {color: blue;}
+
+/*Make spans with zh-CN and zh-TW red */
+span {color: red;}
+
+/* Make gold background for inner links */
+a {background-color:gold}
+
+/*Make all links, that end with .cn red */
+a {color: red;}
+
+/* Make all links with example in href to have gray background */
+a {background-color: #CCCCCC;}

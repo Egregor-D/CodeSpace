@@ -1,0 +1,13 @@
+
+.container div {
+    border: 1px solid black;
+    background: lightgray;
+    margin: 1em 2em 1em 10px;
+    padding: 10px 0 5px 1em;
+}
+
+.container {
+	margin: 10px;
+    padding: 10px 20px;
+}
+

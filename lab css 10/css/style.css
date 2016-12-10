@@ -1,0 +1,23 @@
+.container {
+    background: url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg");
+    background-size: cover;
+    width: 400px;    
+    padding: 20px;
+    margin: 10px;
+}
+
+.addbg {
+    height: 200px;
+}
+
+.keyword {
+	color: red;
+}
+
+.hex {
+	color: #676785;
+}
+
+.rgb {
+	color: rgb(111,200,9);
+}
