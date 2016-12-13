@@ -1,0 +1,41 @@
+.container .item:nth-child(1) {
+	display: none;
+}
+.container .item:nth-child(4) {
+	display: none;
+}
+.container .item:nth-child(7) {
+	display: none;
+}
+
+.container .item:nth-child(2) {
+	visibility: hidden;
+}
+.container .item:nth-child(5) {
+	visibility: hidden;
+}
+.container .item:nth-child(8) {
+	visibility: hidden;
+}
+
+.container .item:nth-child(3) {
+	opacity: 0.5;
+}
+.container .item:nth-child(3):hover {
+	opacity: 1;
+}
+.container .item:nth-child(6) {
+	opacity: 0.5;
+}
+.container .item:nth-child(6):hover {
+	opacity: 1;
+}
+.container .item:nth-child(9) {
+	opacity: 0.5;
+}
+.container .item:nth-child(9):hover {
+	opacity: 1;
+}
+.item {
+	display: inline;
+}
