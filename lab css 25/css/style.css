@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.wrapper {
+	padding-top: 10px;
+	padding-left: 15%;
+	width: 70%;
+	position: relative;
+}
+
+p {
+	font-size: 36px;
+	color: white;
+	text-align: center;
+}
+
+header {
+	height: 100px;
+	width: 66.28em;
+	background-color: blue;
+	border: 2px solid black;
+	margin-bottom: 10px;
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+}
+
+.nav {
+	margin-top: 100px;
+	height: 100px;
+	background-color: blue;
+	border: 2px solid black;
+	margin-bottom: 10px;
+
+}
+
+.content {
+	height: 3000px;
+	background-color: blue;
+	border: 2px solid black;
+	margin-bottom: 10px;
+	position: relative;
+	padding-bottom: 100px;
+}
+.content > p {
+	line-height: 200px;
+	margin-bottom: 100px;
+}
+
+.aside {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	border: 1px solid black;
+	left: 900px;
+	top: 60px;
+}
+
+.bonus {
+	height: 110px;
+}
+
+footer {
+	height: 100px;
+	width: 66.28em;
+	background-color: blue;
+	border: 2px solid black;
+	margin-top: 10px;
+	height: 100px;
+	background-color: blue;
+	border: 2px solid black;
+	margin-bottom: 10px;
+	position: fixed;
+	bottom: 0px;
+}
