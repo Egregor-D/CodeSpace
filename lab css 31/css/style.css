@@ -1,0 +1,13 @@
+div {
+	width: 500px;
+	height: 500px;
+	background-color: gold;
+	margin-left: 30%;
+
+	box-shadow: 100px 100px 50px red;
+}
+
+p {
+	font-size: 50px;
+	text-shadow: 15px 15px 7px green;
+}

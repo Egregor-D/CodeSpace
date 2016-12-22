@@ -1,0 +1,20 @@
+div {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	animation-name: kub;
+	animation-duration: 5s;
+}
+
+@keyframes kub {
+	0% {background-color: red; left:0px; top:0px;}
+	13% {background-color: green; left:500px; top:0px;}
+	25% {background-color: blue; left:500px; top:500px;}
+	38% {background-color: red; left: 1000px; top: 500px;}
+	50% {background-color: gold; left:1000px; top:0px;}
+	62% {background-color: blue; left:500px; top:0px;}
+	75% {background-color: green; left: 500px; top: 500px;}
+	87% {background-color: yellow; left:0px; top:500px;}
+	100% {background-color: red; left:0px; top:0px;}
+}

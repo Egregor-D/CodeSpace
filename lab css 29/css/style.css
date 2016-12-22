@@ -1,0 +1,86 @@
+body{margin: 0px; padding: 0px;}
+body > div {
+	padding: 50px;
+	 padding-left: 30%;
+}
+
+div > div {
+	width: 500px;
+	height: 500px;
+	margin: 20px;
+	border: 3px solid black;
+	font-size: 36px;
+	text-align: center;
+	line-height: 500px;
+}
+
+
+body > div:nth-child(1){
+	background-color: red;
+}
+body div:nth-child(1) div:nth-child(1){
+	background-color: #FA8072;
+	transform: scale(1.1, 0.9);
+}
+body div:nth-child(1) div:nth-child(2){
+	background-color: #FFA07A;
+	transform: scaleX(0.8);
+}
+body div:nth-child(1) div:nth-child(3){
+	background-color: #FF7F50;
+	transform: scaleY(1.1);
+}
+
+
+body > div:nth-child(2){
+	background-color: green;
+}
+body > div:nth-child(2) > div:nth-child(1){
+	background-color: #7CFC00;
+	transform: rotateX(45deg);
+}
+body > div:nth-child(2) > div:nth-child(2){
+	background-color: #7FFF00;
+	transform: rotateY(45deg);
+}
+body > div:nth-child(2) > div:nth-child(3){
+	background-color: #32CD32;
+	transform: rotateZ(45deg);
+}
+
+
+body > div:nth-child(3){
+	background-color: blue;
+}
+body > div:nth-child(3) > div:nth-child(1){
+	background-color: #6495ED;
+	transform: translateX(100px);
+}
+body > div:nth-child(3) > div:nth-child(2){
+	background-color: #4169E1;
+	transform: translateY(-100px);
+}
+body > div:nth-child(3) > div:nth-child(3){
+	background-color: #4682B4;
+	transform: translate(100px, -30%);
+}
+
+
+body > div:nth-child(4){
+	background-color: gold;
+}
+body > div:nth-child(4) > div:nth-child(1){
+	background-color: #DAA520;
+	transform: skew(-20deg);
+}
+body > div:nth-child(4) > div:nth-child(2){
+	background-color: #D2691E;
+	transform: skewX(45rad);
+}
+body > div:nth-child(4) > div:nth-child(3){
+	background-color: #A0522D;
+	transform: skewY(20deg);
+}
+
+
+
